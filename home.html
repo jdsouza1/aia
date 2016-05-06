@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<header>
+	<meta charset="utf-8"> 
+		 <!--Moblie devices-->
+		 <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+				<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+		<!-- Latest compiled JavaScript &nbsp is space-->
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="home.css">
+		
+		<script src="FitText.js"></script>
+	</header>
+
+	<body>
+		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<a class="navbar-brand" href="#">HKBU AIA</a>
+			<div class="container">
+				<div class="navbar-header"> 
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+					<div class="navbar-collapse collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li class="active"><a href="home.html">Home</a></li>
+							<li class="active"><a href="contact.html">Contact</a></li>
+							<li class="active"><a href="about.html">About</a></li>
+							<li class="active"><a href="about.html">Publications</a></li>
+							<li class="active"><a href="about.html">Sign In</a></li>
+							<li class="active"><a href="about.html">Sign Up</a></li>
+						</ul>
+				
+					</div>
+			</div>
+		</div>	
+		
+		<div class="jumbotron">
+		   <p id= "PageHeader">Welcome to Hong Kong</p>
+		   <p id= "PageHeader2">Association of International Affairs</p>
+		  <p id ="IdeaJumboButton"><a class="btn btn-primary btn-lg" href="#" role="button">What is your idea worth?</a></p>
+		  <img id = "HomeImg" src="homepage.jpg" class="img-responsive" alt="Responsive image">
+		</div>
+		<script>
+			jQuery("#PageHeader").fitText();
+			
+		</script>
+	</body>
+
+
+
+
+</html>

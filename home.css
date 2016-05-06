@@ -1,0 +1,25 @@
+#IdeaJumboButton{
+position:absolute;
+top:85%;
+right:40%;
+}
+HomeImg{
+height:900;
+ width:2000;
+}
+#PageHeader{
+position:absolute;
+top:60%;
+right:30%;
+color: FF3933;
+font-size: 350%;
+
+}
+#PageHeader2{
+position:absolute;
+top:70%;
+right:20%;
+color: FF3933;
+font-size: 350%;
+}
+
